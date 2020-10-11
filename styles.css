@@ -1,0 +1,149 @@
+body {
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+  /*  margin : 0; -- well, this is a better code practice... it includes all sides.. check it out*/
+}
+
+h1 {
+  padding-top: 25px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 0;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #66BFBF;
+  font-weight: bolder;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 200px;
+}
+
+.middle-container {
+  padding: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;;
+
+
+}
+
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.profileimg {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.crop1 {
+  float: left;
+  border-radius: 50%;
+  width: 25%;
+  margin-right: 40px;
+}
+
+.crop2 {
+  height: 200px;
+  width: 25%;
+  overflow: hidden;
+  border-radius: 50%;
+  float: right;
+  margin-left: 40px;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+a:hover{
+  color: powderblue;
+}
+
+p {
+  color: #40514E;
+}
+
+.last {
+  color: powderblue;
+  padding: 20px;
+  font-size: 0.99rem;
+}
+
+.btn {
+  margin: 50px;
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  border-radius: 30px;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  background-color: #66BFBF;
+  -webkit-box-shadow: 0 0 7px 0 #000000;
+  -moz-box-shadow: 0 0 7px 0 #000000;
+  box-shadow: 0 0 7px 0 #000000;
+  text-shadow: 0 1px 41px #000000;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  border: dotted #66BFBF 1px;
+  -webkit-border-radius: 39px;
+  -moz-border-radius: 39px;
+  border-radius: 39px;
+  text-decoration: none;
+  color: powderblue;
+}
